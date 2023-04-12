@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author rvign
+ *
+ */
+module JavaPlayGround {
+}
