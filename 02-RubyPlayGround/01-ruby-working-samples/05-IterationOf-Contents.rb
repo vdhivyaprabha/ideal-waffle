@@ -23,6 +23,7 @@ class IterationOfContends
         end
     end
 
+    
     def iterate_using_whiledowhile(potter_array)
         array_length = potter_array.length()
         index = 0
@@ -33,6 +34,21 @@ class IterationOfContends
             index+=1
         end
     end
+    
+
+    def iterate_using_loop(potter_array)
+        array_length = potter_array.length()
+        index = 0
+        loop do
+            element = potter_array.at(index)
+            puts("The value at the index :: #{index} is #{element}")
+            index+=1
+            if index >= array_length 
+                break
+            end
+        end
+    end
+
 
 end
 
@@ -47,6 +63,9 @@ if max_count > 10
 end
 
 iteration_instance = IterationOfContends.new(max_count)
+
 iteration_instance.iterate_using_forloop(potter_array)
 
 iteration_instance.iterate_using_whiledowhile(potter_array)
+
+iteration_instance.iterate_using_loop(potter_array)
