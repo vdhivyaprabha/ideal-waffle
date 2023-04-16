@@ -1,17 +1,27 @@
 
 =begin
-This class is intended to demonstate the functionality of Iteration through different loops and statements.
-initially we would see by iterating a for loop using a number which is retrived through user input 
-then we would iterate an predefined array. This would be do for all possible statements and loops.
+    This class is intended to demonstate the functionality of Iteration through different loops and statements.
+    initially we would see by iterating a for loop using a number which is retrived through user input 
+    then we would iterate an predefined array. This would be do for all possible statements and loops.
 =end
 class IterationOfContends
 
+=begin
+    This Method is intended to initialize the class level varaibles which creating the object , 
+    the varaibles are passed as contructor and set as class level varaibles using this method.
+=end
     def initialize(max_count)
         puts("Initializing components for the class IterationOfContends")
         @@max_count = max_count
         puts("The value of the max count is initialized to value #{max_count}")
     end
 
+=begin
+    Thi method is intended to demonstrate the functionality of the for loops ,
+    Here we have taken atwo for loops to demonstate the functionality one takes a predefined array
+    and other takes a range of values where the input values are got from the user input and then set as class
+    varaibles.
+=end
     def iterate_using_forloop(potter_array)
         # Iterate the user input and display where the index is while iterating
         for indv_element in 1..@@max_count do
@@ -89,13 +99,13 @@ end
 
 # Demonstration of Object Creation and passing class level varaibles
 iteration_instance = IterationOfContends.new(max_count)
-# Demonstrating for loops and iteration using predefined arrays and ranges
-#iteration_instance.iterate_using_forloop(potter_array)
-# demonstration of the while statement and how s it used to iterate a predefined array and defining index for the same.
-#iteration_instance.iterate_using_whiledowhile(potter_array)
-# demonstration of the loop statement and how s it used to iterate a predefined array and defining index for the same.
-#iteration_instance.iterate_using_loop(potter_array)
-# demonstration of the untill statement and how s it used to iterate a predefined array and defining index for the same.
-#iteration_instance.iteration_using_untill(potter_array)
-# demonstration of Break and Next in loops statements : here we have taken the for loop to iterate
+# Demonstration of for loops and iteration using predefined arrays and ranges
+iteration_instance.iterate_using_forloop(potter_array)
+# Demonstration of the while statement and how s it used to iterate a predefined array and defining index for the same.
+iteration_instance.iterate_using_whiledowhile(potter_array)
+# Demonstration of the loop statement and how s it used to iterate a predefined array and defining index for the same.
+iteration_instance.iterate_using_loop(potter_array)
+# Demonstration of the untill statement and how s it used to iterate a predefined array and defining index for the same.
+iteration_instance.iteration_using_untill(potter_array)
+# Demonstration of Break and Next in loops statements : here we have taken the for loop to iterate
 iteration_instance.break_next_onloops()
