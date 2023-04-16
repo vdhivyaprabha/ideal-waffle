@@ -60,6 +60,20 @@ class IterationOfContends
         end
     end
 
+    def break_next_onloops()
+        # Iterate the user input and display where the index is while iterating
+        breat_at_index = 6
+        next_at_index = 3
+        for indv_element in 1..@@max_count do
+            if indv_element == next_at_index then
+                next
+            elsif indv_element == breat_at_index then
+                break
+            end
+            puts("Index => #{indv_element}")
+        end
+    end
+
 
 end
 
@@ -82,4 +96,6 @@ iteration_instance = IterationOfContends.new(max_count)
 # demonstration of the loop statement and how s it used to iterate a predefined array and defining index for the same.
 #iteration_instance.iterate_using_loop(potter_array)
 # demonstration of the untill statement and how s it used to iterate a predefined array and defining index for the same.
-iteration_instance.iteration_using_untill(potter_array)
+#iteration_instance.iteration_using_untill(potter_array)
+# demonstration of Break and Next in loops statements : here we have taken the for loop to iterate
+iteration_instance.break_next_onloops()
