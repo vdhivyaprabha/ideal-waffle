@@ -1,4 +1,9 @@
 
+=begin
+This class is intended to demonstate the functionality of Iteration through different loops and statements.
+initially we would see by iterating a for loop using a number which is retrived through user input 
+then we would iterate an predefined array. This would be do for all possible statements and loops.
+=end
 class IterationOfContends
 
     def initialize(max_count)
