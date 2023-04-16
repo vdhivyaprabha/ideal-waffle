@@ -49,6 +49,17 @@ class IterationOfContends
         end
     end
 
+    def iteration_using_untill(potter_array)
+        array_length = potter_array.length()
+        index = 0
+        until index >= array_length
+            element = potter_array.at(index)
+            puts("The value at the index :: using index :: #{index} is #{potter_array[index]}")
+            puts("The value at the index :: using Arrays.at :: #{index} is #{element}")
+            index+=1
+        end
+    end
+
 
 end
 
@@ -62,10 +73,13 @@ if max_count > 10
     max_count = 10
 end
 
+# Demonstration of Object Creation and passing class level varaibles
 iteration_instance = IterationOfContends.new(max_count)
-
-iteration_instance.iterate_using_forloop(potter_array)
-
-iteration_instance.iterate_using_whiledowhile(potter_array)
-
-iteration_instance.iterate_using_loop(potter_array)
+# Demonstrating for loops and iteration using predefined arrays and ranges
+#iteration_instance.iterate_using_forloop(potter_array)
+# demonstration of the while statement and how s it used to iterate a predefined array and defining index for the same.
+#iteration_instance.iterate_using_whiledowhile(potter_array)
+# demonstration of the loop statement and how s it used to iterate a predefined array and defining index for the same.
+#iteration_instance.iterate_using_loop(potter_array)
+# demonstration of the untill statement and how s it used to iterate a predefined array and defining index for the same.
+iteration_instance.iteration_using_untill(potter_array)
