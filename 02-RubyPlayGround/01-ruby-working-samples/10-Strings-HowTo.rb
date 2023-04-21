@@ -5,8 +5,8 @@ class HowToUseStrings
     end
 
     def accessStringByParts(input_element1)
-        puts(input_element1[0])
-        puts(input_element1[0..2])
+        puts("Accessing first character in the inputstring :: #{input_element1[0]}")
+        puts("Accessing Range of character in the inputstring :: #{input_element1[0..2]}")
     end
 
 end
