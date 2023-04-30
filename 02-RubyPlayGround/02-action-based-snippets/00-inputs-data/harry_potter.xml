@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<harry_potter>
+  <book>
+    <title>Harry Potter and the Philosopher's Stone</title>
+    <author>J.K. Rowling</author>
+    <published_year>1997</published_year>
+    <isbn>978-0747532743</isbn>
+    <publisher>Bloomsbury Publishing</publisher>
+    <characters>
+      <character>
+        <name>Harry Potter</name>
+        <birth_year>1980</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>holly</wood>
+          <core>phoenix feather</core>
+          <length>11 inches</length>
+        </wand>
+      </character>
+      <character>
+        <name>Hermione Granger</name>
+        <birth_year>1979</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>vine</wood>
+          <core>dragon heartstring</core>
+          <length>10¾ inches</length>
+        </wand>
+      </character>
+      <character>
+        <name>Ron Weasley</name>
+        <birth_year>1980</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>willow</wood>
+          <core>unicorn tail hair</core>
+          <length>14 inches</length>
+        </wand>
+      </character>
+      <character>
+        <name>Albus Dumbledore</name>
+        <birth_year>1881</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>elder</wood>
+          <core>Thestral tail hair</core>
+          <length>15 inches</length>
+        </wand>
+      </character>
+      <character>
+        <name>Severus Snape</name>
+        <birth_year>1960</birth_year>
+        <house>Slytherin</house>
+        <wand>
+          <wood>aspen</wood>
+          <core>dragon heartstring</core>
+          <length>10 inches</length>
+        </wand>
+      </character>
+    </characters>
+  </book>
+  <!-- additional books here... -->
+</harry_potter>
