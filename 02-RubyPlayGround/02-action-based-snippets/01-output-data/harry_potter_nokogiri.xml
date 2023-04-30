@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<harry_potter>
+  <book>
+    <title>Harry Potter and the Philosopher's Stone</title>
+    <author>J.K. Rowling</author>
+    <published_year>1997</published_year>
+    <isbn>9780747532743</isbn>
+    <publisher>Bloomsbury</publisher>
+    <characters>
+      <character>
+        <name>Harry Potter</name>
+        <birth_year>1980</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>Holly</wood>
+          <core>Phoenix Feather</core>
+          <length>11 inches</length>
+        </wand>
+      </character>
+      <character>
+        <name>Hermione Granger</name>
+        <birth_year>1979</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>Vine</wood>
+          <core>Dragon Heartstring</core>
+          <length>10&#xBE; inches</length>
+        </wand>
+      </character>
+      <character>
+        <name>Ron Weasley</name>
+        <birth_year>1980</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>Willow</wood>
+          <core>Unicorn Hair</core>
+          <length>14 inches</length>
+        </wand>
+      </character>
+    </characters>
+  </book>
+  <book>
+    <title>Harry Potter and the Chamber of Secrets</title>
+    <author>J.K. Rowling</author>
+    <published_year>1998</published_year>
+    <isbn>9780747538486</isbn>
+    <publisher>Bloomsbury</publisher>
+    <characters>
+      <character>
+        <name>Harry Potter</name>
+        <birth_year>1980</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>Holly</wood>
+          <core>Phoenix Feather</core>
+          <length>11 inches</length>
+        </wand>
+      </character>
+      <character>
+        <name>Hermione Granger</name>
+        <birth_year>1979</birth_year>
+        <house>Gryffindor</house>
+        <wand>
+          <wood>Vine</wood>
+          <core>Dragon Heartstring</core>
+          <length>10&#xBE; inches</length>
+        </wand>
+      </character>
+    </characters>
+  </book>
+</harry_potter>
