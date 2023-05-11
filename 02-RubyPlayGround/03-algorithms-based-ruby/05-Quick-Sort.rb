@@ -1,3 +1,7 @@
+# The quick_sort function uses a pivot element to partition the array into smaller and 
+# greater partitions, and then recursively sorts each partition. 
+# The resulting sorted array is printed to the console.
+
 # array of unsorted Hogwarts houses
 houses = ["Slytherin", "Gryffindor", "Hufflepuff", "Ravenclaw"]
 

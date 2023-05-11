@@ -1,3 +1,8 @@
+#The merge_sort function takes an array as input, and recursively divides the array into two halves 
+#until the base case of a single-element array is reached. It then merges the two sorted halves 
+#    together using a while loop that compares the first elements of each subarray and adds the 
+#    smaller element to the result array.
+
 # array of unsorted Hogwarts houses
 houses = ["Slytherin", "Gryffindor", "Hufflepuff", "Ravenclaw"]
 

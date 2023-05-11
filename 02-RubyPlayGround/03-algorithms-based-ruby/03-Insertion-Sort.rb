@@ -1,3 +1,7 @@
+# The insertion_sort function takes an array as input, and uses a nested loop to iterate over 
+# each element in the array, comparing it to the previous elements and moving them to the right 
+# if they are greater than the key. The key is then inserted into the correct position in the sorted subarray.
+
 # array of unsorted Hogwarts houses
 houses = ["Slytherin", "Gryffindor", "Hufflepuff", "Ravenclaw"]
 
